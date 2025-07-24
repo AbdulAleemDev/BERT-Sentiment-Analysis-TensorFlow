@@ -1,4 +1,5 @@
 📂 Dataset Used
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The dataset consists of user comments labeled into three categories: positive, negative, and neutral. It can be a custom dataset (CSV or TSV format) with at least two columns:
 
 text: The actual comment or review
@@ -8,6 +9,7 @@ label: Sentiment label (e.g., 0 for negative, 1 for neutral, 2 for positive)
 If you're using a public dataset, be sure to provide a link or cite the source.
 
 🧠 Steps to Train the Model
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Import Required Libraries
 Load necessary libraries like transformers, tensorflow, pandas, etc.
 
@@ -24,6 +26,7 @@ Train the Model
 Fit the model on the training dataset using model.fit() with TPU or GPU acceleration if available.
 
 📊 Model Performance (Accuracy, Loss)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The model was trained for 3 epochs on the sentiment dataset. Below are the evaluation metrics:
 
 Training Accuracy: 85% (example)
@@ -43,6 +46,7 @@ Applying learning rate scheduling
 Cleaning or balancing the dataset
 
 📌 Example Predictions
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Here are a few sample predictions after training:
 
 💬 "This product is amazing!" → Positive
@@ -52,6 +56,7 @@ Here are a few sample predictions after training:
 💬 "It's okay, nothing special." → Neutral
 
 ▶️ How to Run the Notebook
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Clone the repository
 
 bash
